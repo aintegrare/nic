@@ -9,9 +9,16 @@ export default function Buttons() {
       </p>
 
       <div className="space-y-12">
-        <div className="bg-white border border-neutral-200 p-16">
-          <h3 className="text-2xl font-extralight text-neutral-900 mb-12 tracking-wide">Primary Buttons</h3>
-          <div className="flex flex-wrap gap-8 items-center mb-12">
+        <div className="relative bg-white border border-neutral-200 p-16 overflow-hidden">
+          <div className="absolute top-0 right-0 w-1/3 h-full opacity-5">
+            <img
+              src="https://images.unsplash.com/photo-1505433292045-cc8f3daf8a5d?w=800&q=90"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <h3 className="relative text-2xl font-extralight text-neutral-900 mb-12 tracking-wide">Primary Buttons</h3>
+          <div className="relative flex flex-wrap gap-8 items-center mb-12">
             <button className="px-10 py-5 bg-[#978e81] text-white font-extralight hover:bg-[#785633] transition-colors duration-200 tracking-wide">
               Large Button
             </button>
@@ -22,7 +29,7 @@ export default function Buttons() {
               Small Button
             </button>
           </div>
-          <div className="flex flex-wrap gap-8 items-center">
+          <div className="relative flex flex-wrap gap-8 items-center">
             <button className="px-8 py-4 bg-[#978e81] text-white font-extralight hover:bg-[#785633] transition-colors duration-200 flex items-center gap-3 tracking-wide">
               <Plus size={18} />
               With Icon

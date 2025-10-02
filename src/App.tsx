@@ -49,23 +49,32 @@ function App() {
 
       <main className="max-w-7xl mx-auto px-12 py-20">
         <div className="mb-32">
-          <div className="bg-[#978e81] p-24 text-white">
-            <div className="max-w-5xl">
-              <h1 className="text-7xl font-thin mb-16 tracking-tight leading-none">
-                Design System
-              </h1>
-              <p className="text-xl opacity-90 mb-20 max-w-3xl leading-relaxed font-extralight">
-                Sistema minimalista desenvolvido para marcas que valorizam elegância, 
-                sofisticação e alto padrão estético.
-              </p>
-              <div className="flex gap-16">
-                <div className="px-8 py-6 bg-black/10 border border-white/20">
-                  <p className="text-sm opacity-70 uppercase tracking-widest font-light">Marca</p>
-                  <p className="font-normal text-lg mt-2">@nicollyliiz</p>
-                </div>
-                <div className="px-8 py-6 bg-black/10 border border-white/20">
-                  <p className="text-sm opacity-70 uppercase tracking-widest font-light">Filosofia</p>
-                  <p className="font-normal text-lg mt-2">Flat Design Elegante</p>
+          <div className="relative bg-[#978e81] overflow-hidden">
+            <div className="absolute inset-0 opacity-20">
+              <img
+                src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=1920&q=90"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="relative p-24 text-white">
+              <div className="max-w-5xl">
+                <h1 className="text-7xl font-thin mb-16 tracking-tight leading-none">
+                  Design System
+                </h1>
+                <p className="text-xl opacity-90 mb-20 max-w-3xl leading-relaxed font-extralight">
+                  Sistema minimalista desenvolvido para marcas que valorizam elegância,
+                  sofisticação e alto padrão estético.
+                </p>
+                <div className="flex gap-16">
+                  <div className="px-8 py-6 bg-black/10 border border-white/20 backdrop-blur-sm">
+                    <p className="text-sm opacity-70 uppercase tracking-widest font-light">Marca</p>
+                    <p className="font-normal text-lg mt-2">@nicollyliiz</p>
+                  </div>
+                  <div className="px-8 py-6 bg-black/10 border border-white/20 backdrop-blur-sm">
+                    <p className="text-sm opacity-70 uppercase tracking-widest font-light">Filosofia</p>
+                    <p className="font-normal text-lg mt-2">Flat Design Elegante</p>
+                  </div>
                 </div>
               </div>
             </div>
