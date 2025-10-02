@@ -13,10 +13,10 @@ export default function Alerts() {
       </p>
 
       <div className="space-y-8">
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Alert Banners</h3>
           <div className="space-y-4 max-w-3xl">
-            <div className="flex items-start gap-3 p-4 bg-[#10b981]/10 border-l-4 border-[#10b981] rounded-lg">
+            <div className="flex items-start gap-3 p-4 bg-[#10b981]/10 border-l-4 border-[#10b981] rounded">
               <CheckCircle className="text-[#10b981] flex-shrink-0 mt-0.5" size={20} />
               <div className="flex-1">
                 <h4 className="font-semibold text-[#059669] mb-1">Success!</h4>
@@ -26,7 +26,7 @@ export default function Alerts() {
               </div>
             </div>
 
-            <div className="flex items-start gap-3 p-4 bg-[#978e81]/10 border-l-4 border-[#978e81] rounded-lg">
+            <div className="flex items-start gap-3 p-4 bg-[#978e81]/10 border-l-4 border-[#978e81] rounded">
               <Info className="text-[#978e81] flex-shrink-0 mt-0.5" size={20} />
               <div className="flex-1">
                 <h4 className="font-semibold text-[#785633] mb-1">Information</h4>
@@ -36,7 +36,7 @@ export default function Alerts() {
               </div>
             </div>
 
-            <div className="flex items-start gap-3 p-4 bg-[#f59e0b]/10 border-l-4 border-[#f59e0b] rounded-lg">
+            <div className="flex items-start gap-3 p-4 bg-[#f59e0b]/10 border-l-4 border-[#f59e0b] rounded">
               <AlertTriangle className="text-[#f59e0b] flex-shrink-0 mt-0.5" size={20} />
               <div className="flex-1">
                 <h4 className="font-semibold text-[#d97706] mb-1">Warning</h4>
@@ -46,7 +46,7 @@ export default function Alerts() {
               </div>
             </div>
 
-            <div className="flex items-start gap-3 p-4 bg-[#ef4444]/10 border-l-4 border-[#ef4444] rounded-lg">
+            <div className="flex items-start gap-3 p-4 bg-[#ef4444]/10 border-l-4 border-[#ef4444] rounded">
               <XCircle className="text-[#ef4444] flex-shrink-0 mt-0.5" size={20} />
               <div className="flex-1">
                 <h4 className="font-semibold text-[#dc2626] mb-1">Error</h4>
@@ -58,11 +58,11 @@ export default function Alerts() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Dismissable Alerts</h3>
           <div className="space-y-4 max-w-3xl">
             {showDismissable && (
-              <div className="flex items-start gap-3 p-4 bg-[#978e81]/10 border border-[#978e81]/20 rounded-lg">
+              <div className="flex items-start gap-3 p-4 bg-[#978e81]/10 border border-[#978e81]/20 rounded">
                 <Info className="text-[#978e81] flex-shrink-0 mt-0.5" size={20} />
                 <div className="flex-1">
                   <p className="text-sm text-[#785633] leading-relaxed">
@@ -88,10 +88,10 @@ export default function Alerts() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Toast Notifications</h3>
           <div className="space-y-4 max-w-md">
-            <div className="bg-white rounded-lg shadow-xl border border-neutral-200 p-4 flex items-start gap-3">
+            <div className="bg-white rounded shadow-xl border border-neutral-200 p-4 flex items-start gap-3">
               <CheckCircle className="text-[#10b981] flex-shrink-0" size={20} />
               <div className="flex-1">
                 <h4 className="font-semibold text-neutral-900 text-sm mb-0.5">Upload complete</h4>
@@ -102,7 +102,7 @@ export default function Alerts() {
               </button>
             </div>
 
-            <div className="bg-white rounded-lg shadow-xl border border-neutral-200 p-4 flex items-start gap-3">
+            <div className="bg-white rounded shadow-xl border border-neutral-200 p-4 flex items-start gap-3">
               <AlertTriangle className="text-[#f59e0b] flex-shrink-0" size={20} />
               <div className="flex-1">
                 <h4 className="font-semibold text-neutral-900 text-sm mb-0.5">Attention needed</h4>
@@ -113,7 +113,7 @@ export default function Alerts() {
               </button>
             </div>
 
-            <div className="bg-[#978e81] rounded-lg shadow-xl p-4 flex items-start gap-3 text-white">
+            <div className="bg-[#272721] rounded shadow-xl p-4 flex items-start gap-3 text-white">
               <Info className="flex-shrink-0" size={20} />
               <div className="flex-1">
                 <h4 className="font-semibold text-sm mb-0.5">New update available</h4>
@@ -126,7 +126,7 @@ export default function Alerts() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Inline Messages</h3>
           <div className="space-y-6 max-w-3xl">
             <div>
@@ -134,7 +134,7 @@ export default function Alerts() {
               <input
                 type="email"
                 placeholder="email@example.com"
-                className="w-full px-4 py-2.5 border-2 border-[#10b981] rounded-lg focus:outline-none"
+                className="w-full px-4 py-2.5 border-2 border-[#10b981] rounded focus:outline-none"
               />
               <div className="flex items-center gap-2 mt-2">
                 <CheckCircle className="text-[#10b981]" size={16} />
@@ -147,7 +147,7 @@ export default function Alerts() {
               <input
                 type="password"
                 placeholder="Enter password"
-                className="w-full px-4 py-2.5 border-2 border-[#ef4444] rounded-lg focus:outline-none"
+                className="w-full px-4 py-2.5 border-2 border-[#ef4444] rounded focus:outline-none"
               />
               <div className="flex items-center gap-2 mt-2">
                 <XCircle className="text-[#ef4444]" size={16} />
@@ -160,7 +160,7 @@ export default function Alerts() {
               <input
                 type="text"
                 placeholder="Choose a username"
-                className="w-full px-4 py-2.5 border-2 border-[#f59e0b] rounded-lg focus:outline-none"
+                className="w-full px-4 py-2.5 border-2 border-[#f59e0b] rounded focus:outline-none"
               />
               <div className="flex items-center gap-2 mt-2">
                 <AlertTriangle className="text-[#f59e0b]" size={16} />
@@ -170,31 +170,31 @@ export default function Alerts() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Badge Notifications</h3>
           <div className="flex flex-wrap gap-4 items-center">
-            <span className="px-3 py-1 bg-[#978e81] text-white text-xs font-semibold rounded-full">
+            <span className="px-3 py-1 bg-[#978e81] text-white text-xs font-semibold rounded-sm">
               New
             </span>
-            <span className="px-3 py-1 bg-[#10b981] text-white text-xs font-semibold rounded-full">
+            <span className="px-3 py-1 bg-[#10b981] text-white text-xs font-semibold rounded-sm">
               Active
             </span>
-            <span className="px-3 py-1 bg-[#f59e0b] text-white text-xs font-semibold rounded-full">
+            <span className="px-3 py-1 bg-[#f59e0b] text-white text-xs font-semibold rounded-sm">
               Pending
             </span>
-            <span className="px-3 py-1 bg-[#ef4444] text-white text-xs font-semibold rounded-full">
+            <span className="px-3 py-1 bg-[#ef4444] text-white text-xs font-semibold rounded-sm">
               Urgent
             </span>
-            <span className="px-3 py-1 bg-[#5d3a20] text-white text-xs font-semibold rounded-full">
+            <span className="px-3 py-1 bg-[#5d3a20] text-white text-xs font-semibold rounded-sm">
               Premium
             </span>
-            <span className="px-3 py-1 bg-neutral-200 text-neutral-700 text-xs font-semibold rounded-full">
+            <span className="px-3 py-1 bg-neutral-200 text-neutral-700 text-xs font-semibold rounded-sm">
               Inactive
             </span>
-            <span className="px-3 py-1 bg-[#978e81]/10 text-[#978e81] text-xs font-semibold rounded-full">
+            <span className="px-3 py-1 bg-[#978e81]/10 text-[#978e81] text-xs font-semibold rounded-sm">
               Draft
             </span>
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#ef4444] text-white text-xs font-semibold rounded-full">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#ef4444] text-white text-xs font-semibold rounded-sm">
               <span className="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span>
               Live
             </span>

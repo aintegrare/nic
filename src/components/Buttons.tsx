@@ -44,7 +44,7 @@ export default function Buttons() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Secondary Buttons</h3>
           <div className="flex flex-wrap gap-4 items-center">
             <button className="px-5 py-2.5 bg-[#f1ebe1] text-[#785633] font-semibold rounded-lg hover:bg-[#978e81] hover:text-white transition-all duration-200 shadow-sm hover:shadow-md">
@@ -62,7 +62,7 @@ export default function Buttons() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Accent & Semantic Buttons</h3>
           <div className="flex flex-wrap gap-4 items-center">
             <button className="px-5 py-2.5 bg-[#5d3a20] text-white font-semibold rounded-lg hover:bg-[#272721] transition-all duration-200 shadow-sm hover:shadow-md flex items-center gap-2">
@@ -82,7 +82,7 @@ export default function Buttons() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Icon Buttons</h3>
           <div className="flex flex-wrap gap-4 items-center">
             <button className="p-3 bg-[#978e81] text-white rounded-lg hover:bg-[#785633] transition-all duration-200 shadow-sm hover:shadow-md">

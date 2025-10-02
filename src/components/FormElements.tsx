@@ -10,7 +10,7 @@ export default function FormElements() {
       </p>
 
       <div className="space-y-8">
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Text Inputs</h3>
           <div className="space-y-6 max-w-2xl">
             <div>
@@ -20,7 +20,7 @@ export default function FormElements() {
               <input
                 type="text"
                 placeholder="Enter text..."
-                className="w-full px-4 py-2.5 border-2 border-neutral-200 rounded-lg focus:border-[#978e81] focus:outline-none transition-colors duration-200"
+                className="w-full px-4 py-2.5 border-2 border-neutral-200 rounded focus:border-[#978e81] focus:outline-none transition-colors duration-200"
               />
             </div>
 
@@ -33,7 +33,7 @@ export default function FormElements() {
                 <input
                   type="email"
                   placeholder="email@example.com"
-                  className="w-full pl-11 pr-4 py-2.5 border-2 border-neutral-200 rounded-lg focus:border-[#978e81] focus:outline-none transition-colors duration-200"
+                  className="w-full pl-11 pr-4 py-2.5 border-2 border-neutral-200 rounded focus:border-[#978e81] focus:outline-none transition-colors duration-200"
                 />
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function FormElements() {
                 <input
                   type="search"
                   placeholder="Search..."
-                  className="w-full pl-11 pr-4 py-2.5 border-2 border-neutral-200 rounded-lg focus:border-[#978e81] focus:outline-none transition-colors duration-200"
+                  className="w-full pl-11 pr-4 py-2.5 border-2 border-neutral-200 rounded focus:border-[#978e81] focus:outline-none transition-colors duration-200"
                 />
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function FormElements() {
                 <input
                   type="password"
                   placeholder="Enter password"
-                  className="w-full pl-11 pr-11 py-2.5 border-2 border-neutral-200 rounded-lg focus:border-[#978e81] focus:outline-none transition-colors duration-200"
+                  className="w-full pl-11 pr-11 py-2.5 border-2 border-neutral-200 rounded focus:border-[#978e81] focus:outline-none transition-colors duration-200"
                 />
                 <button className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-600">
                   <Eye size={20} />
@@ -77,7 +77,7 @@ export default function FormElements() {
                 type="text"
                 placeholder="Disabled"
                 disabled
-                className="w-full px-4 py-2.5 border-2 border-neutral-200 rounded-lg bg-neutral-100 text-neutral-500 cursor-not-allowed"
+                className="w-full px-4 py-2.5 border-2 border-neutral-200 rounded bg-neutral-100 text-neutral-500 cursor-not-allowed"
               />
             </div>
 
@@ -88,7 +88,7 @@ export default function FormElements() {
               <input
                 type="text"
                 placeholder="Invalid input"
-                className="w-full px-4 py-2.5 border-2 border-[#ef4444] rounded-lg focus:border-[#dc2626] focus:outline-none transition-colors duration-200"
+                className="w-full px-4 py-2.5 border-2 border-[#ef4444] rounded focus:border-[#dc2626] focus:outline-none transition-colors duration-200"
               />
               <p className="text-sm text-[#ef4444] mt-1.5">This field is required</p>
             </div>
@@ -100,14 +100,14 @@ export default function FormElements() {
               <input
                 type="text"
                 placeholder="Valid input"
-                className="w-full px-4 py-2.5 border-2 border-[#10b981] rounded-lg focus:border-[#059669] focus:outline-none transition-colors duration-200"
+                className="w-full px-4 py-2.5 border-2 border-[#10b981] rounded focus:border-[#059669] focus:outline-none transition-colors duration-200"
               />
               <p className="text-sm text-[#10b981] mt-1.5">Looking good!</p>
             </div>
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Textarea</h3>
           <div className="max-w-2xl">
             <label className="block text-sm font-semibold text-neutral-700 mb-2">
@@ -116,19 +116,19 @@ export default function FormElements() {
             <textarea
               rows={4}
               placeholder="Enter your message..."
-              className="w-full px-4 py-2.5 border-2 border-neutral-200 rounded-lg focus:border-[#978e81] focus:outline-none transition-colors duration-200 resize-none"
+              className="w-full px-4 py-2.5 border-2 border-neutral-200 rounded focus:border-[#978e81] focus:outline-none transition-colors duration-200 resize-none"
             />
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Select & Options</h3>
           <div className="space-y-6 max-w-2xl">
             <div>
               <label className="block text-sm font-semibold text-neutral-700 mb-2">
                 Select Menu
               </label>
-              <select className="w-full px-4 py-2.5 border-2 border-neutral-200 rounded-lg focus:border-[#978e81] focus:outline-none transition-colors duration-200 bg-white">
+              <select className="w-full px-4 py-2.5 border-2 border-neutral-200 rounded focus:border-[#978e81] focus:outline-none transition-colors duration-200 bg-white">
                 <option>Select an option</option>
                 <option>Option 1</option>
                 <option>Option 2</option>
@@ -144,14 +144,14 @@ export default function FormElements() {
                 <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400 pointer-events-none" size={20} />
                 <input
                   type="date"
-                  className="w-full pl-11 pr-4 py-2.5 border-2 border-neutral-200 rounded-lg focus:border-[#978e81] focus:outline-none transition-colors duration-200"
+                  className="w-full pl-11 pr-4 py-2.5 border-2 border-neutral-200 rounded focus:border-[#978e81] focus:outline-none transition-colors duration-200"
                 />
               </div>
             </div>
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Checkboxes & Radio</h3>
           <div className="space-y-8 max-w-2xl">
             <div>
@@ -219,7 +219,7 @@ export default function FormElements() {
               <h4 className="text-sm font-semibold text-neutral-700 mb-4">Toggle Switch</h4>
               <label className="relative inline-flex items-center cursor-pointer">
                 <input type="checkbox" className="sr-only peer" />
-                <div className="w-11 h-6 bg-neutral-300 peer-focus:ring-2 peer-focus:ring-[#f1ebe1] rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#978e81]"></div>
+                <div className="w-11 h-6 bg-neutral-300 peer-focus:ring-2 peer-focus:ring-[#f1ebe1] rounded peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded after:h-5 after:w-5 after:transition-all peer-checked:bg-[#978e81]"></div>
                 <span className="ml-3 text-neutral-700">Enable notifications</span>
               </label>
             </div>

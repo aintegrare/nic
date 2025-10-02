@@ -10,7 +10,7 @@ export default function Cards() {
       </p>
 
       <div className="space-y-8">
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Basic Cards</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white border-2 border-neutral-200 rounded-xl p-6 hover:border-[#978e81] transition-colors duration-200">
@@ -20,14 +20,14 @@ export default function Cards() {
               </p>
             </div>
 
-            <div className="bg-white shadow-md rounded-xl p-6 hover:shadow-xl transition-shadow duration-300">
+            <div className="bg-white shadow-md rounded p-6 hover:shadow-xl transition-shadow duration-300">
               <h4 className="font-semibold text-neutral-900 text-lg mb-2">Elevated Card</h4>
               <p className="text-neutral-600 text-sm leading-relaxed">
                 Card com sombra elevada para maior destaque visual no layout.
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#978e81] to-[#785633] rounded-xl p-6 text-white shadow-lg hover:shadow-2xl transition-shadow duration-300">
+            <div className="bg-[#272721] rounded p-6 text-white shadow-lg hover:shadow-2xl transition-shadow duration-300">
               <h4 className="font-semibold text-lg mb-2">Accent Card</h4>
               <p className="text-white/90 text-sm leading-relaxed">
                 Card com gradiente da cor primária para elementos de destaque.
@@ -36,14 +36,14 @@ export default function Cards() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Content Cards</h3>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
-              <div className="h-48 bg-gradient-to-br from-[#f1ebe1] to-[#978e81]"></div>
+            <div className="bg-white rounded shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+              <div className="h-48 bg-[#f1ebe1]"></div>
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="px-3 py-1 bg-[#978e81]/10 text-[#978e81] text-xs font-semibold rounded-full">
+                  <span className="px-3 py-1 bg-[#978e81]/10 text-[#978e81] text-xs font-semibold rounded-sm">
                     Category
                   </span>
                   <span className="text-neutral-400 text-xs">5 min read</span>
@@ -71,11 +71,11 @@ export default function Cards() {
               </div>
             </div>
 
-            <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
-              <div className="h-48 bg-gradient-to-br from-[#5d3a20] to-[#272721]"></div>
+            <div className="bg-white rounded shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+              <div className="h-48 bg-[#272721]"></div>
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="px-3 py-1 bg-[#5d3a20]/10 text-[#5d3a20] text-xs font-semibold rounded-full">
+                  <span className="px-3 py-1 bg-[#5d3a20]/10 text-[#5d3a20] text-xs font-semibold rounded-sm">
                     Featured
                   </span>
                   <button className="text-neutral-400 hover:text-neutral-600">
@@ -88,7 +88,7 @@ export default function Cards() {
                 <p className="text-neutral-600 text-sm leading-relaxed mb-4">
                   Special card variant for premium or featured content with accent color.
                 </p>
-                <button className="w-full px-4 py-2.5 bg-[#5d3a20] text-white font-semibold rounded-lg hover:bg-[#272721] transition-colors duration-200">
+                <button className="w-full px-4 py-2.5 bg-[#5d3a20] text-white font-semibold rounded hover:bg-[#272721] transition-colors duration-200">
                   Learn More
                 </button>
               </div>
@@ -96,12 +96,12 @@ export default function Cards() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Stat Cards</h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-white border-2 border-neutral-200 rounded-xl p-6 hover:border-[#978e81] transition-colors duration-200">
+            <div className="bg-white border-2 border-neutral-200 rounded p-6 hover:border-[#978e81] transition-colors duration-200">
               <div className="flex items-start justify-between mb-4">
-                <div className="p-3 bg-[#978e81]/10 rounded-lg">
+                <div className="p-3 bg-[#978e81]/10 rounded">
                   <TrendingUp className="text-[#978e81]" size={24} />
                 </div>
                 <span className="text-xs text-[#10b981] font-semibold">+12.5%</span>
@@ -110,9 +110,9 @@ export default function Cards() {
               <p className="text-2xl font-bold text-neutral-900">$45,231</p>
             </div>
 
-            <div className="bg-white border-2 border-neutral-200 rounded-xl p-6 hover:border-[#978e81] transition-colors duration-200">
+            <div className="bg-white border-2 border-neutral-200 rounded p-6 hover:border-[#978e81] transition-colors duration-200">
               <div className="flex items-start justify-between mb-4">
-                <div className="p-3 bg-[#5d3a20]/10 rounded-lg">
+                <div className="p-3 bg-[#5d3a20]/10 rounded">
                   <Users className="text-[#5d3a20]" size={24} />
                 </div>
                 <span className="text-xs text-[#10b981] font-semibold">+8.2%</span>
@@ -121,9 +121,9 @@ export default function Cards() {
               <p className="text-2xl font-bold text-neutral-900">12,543</p>
             </div>
 
-            <div className="bg-white border-2 border-neutral-200 rounded-xl p-6 hover:border-[#978e81] transition-colors duration-200">
+            <div className="bg-white border-2 border-neutral-200 rounded p-6 hover:border-[#978e81] transition-colors duration-200">
               <div className="flex items-start justify-between mb-4">
-                <div className="p-3 bg-[#10b981]/10 rounded-lg">
+                <div className="p-3 bg-[#10b981]/10 rounded">
                   <Award className="text-[#10b981]" size={24} />
                 </div>
                 <span className="text-xs text-[#10b981] font-semibold">+15.3%</span>
@@ -134,15 +134,15 @@ export default function Cards() {
           </div>
         </div>
 
-        <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="bg-white rounded shadow-md p-8">
           <h3 className="text-xl font-semibold text-neutral-900 mb-6">Profile Cards</h3>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white border-2 border-neutral-200 rounded-xl overflow-hidden hover:border-[#978e81] transition-colors duration-200">
-              <div className="h-24 bg-gradient-to-r from-[#978e81] to-[#f1ebe1]"></div>
+            <div className="bg-white border-2 border-neutral-200 rounded overflow-hidden hover:border-[#978e81] transition-colors duration-200">
+              <div className="h-24 bg-[#978e81]"></div>
               <div className="px-6 pb-6">
                 <div className="flex items-end justify-between mb-4">
-                  <div className="w-20 h-20 bg-neutral-300 rounded-full -mt-10 border-4 border-white"></div>
-                  <button className="px-4 py-2 border-2 border-[#978e81] text-[#978e81] font-semibold rounded-lg hover:bg-[#978e81] hover:text-white transition-all duration-200 text-sm">
+                  <div className="w-20 h-20 bg-neutral-300 rounded -mt-10 border-4 border-white"></div>
+                  <button className="px-4 py-2 border-2 border-[#978e81] text-[#978e81] font-semibold rounded hover:bg-[#978e81] hover:text-white transition-all duration-200 text-sm">
                     Follow
                   </button>
                 </div>
@@ -165,10 +165,10 @@ export default function Cards() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#978e81] to-[#785633] rounded-xl p-6 text-white shadow-lg">
+            <div className="bg-[#272721] rounded p-6 text-white shadow-lg">
               <div className="flex items-start justify-between mb-6">
-                <div className="w-16 h-16 bg-white/20 rounded-full"></div>
-                <button className="px-4 py-2 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-lg hover:bg-white/20 transition-all duration-200 text-sm">
+                <div className="w-16 h-16 bg-white/20 rounded"></div>
+                <button className="px-4 py-2 bg-white/10 backdrop-blur-sm text-white font-semibold rounded hover:bg-white/20 transition-all duration-200 text-sm">
                   Connect
                 </button>
               </div>
