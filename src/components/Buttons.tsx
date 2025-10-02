@@ -9,29 +9,29 @@ export default function Buttons() {
       </p>
 
       <div className="space-y-12">
-        <div className="bg-white/80 backdrop-blur-sm rounded-sm shadow-lg p-12 border border-neutral-100">
-          <h3 className="text-2xl font-light text-neutral-900 mb-8 tracking-wide">Primary Buttons</h3>
-          <div className="flex flex-wrap gap-6 items-center mb-8">
-            <button className="px-8 py-4 bg-[#978e81] text-white font-light rounded-sm hover:bg-[#785633] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 tracking-wide">
+        <div className="bg-white border border-neutral-200 p-16">
+          <h3 className="text-2xl font-extralight text-neutral-900 mb-12 tracking-wide">Primary Buttons</h3>
+          <div className="flex flex-wrap gap-8 items-center mb-12">
+            <button className="px-10 py-5 bg-[#978e81] text-white font-extralight hover:bg-[#785633] transition-colors duration-200 tracking-wide">
               Large Button
             </button>
-            <button className="px-6 py-3 bg-[#978e81] text-white font-light rounded-sm hover:bg-[#785633] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 tracking-wide">
+            <button className="px-8 py-4 bg-[#978e81] text-white font-extralight hover:bg-[#785633] transition-colors duration-200 tracking-wide">
               Default Button
             </button>
-            <button className="px-4 py-2.5 bg-[#978e81] text-white font-light rounded-sm hover:bg-[#785633] transition-all duration-300 text-sm shadow-lg hover:shadow-xl hover:scale-105 tracking-wide">
+            <button className="px-6 py-3 bg-[#978e81] text-white font-extralight hover:bg-[#785633] transition-colors duration-200 text-sm tracking-wide">
               Small Button
             </button>
           </div>
-          <div className="flex flex-wrap gap-6 items-center">
-            <button className="px-6 py-3 bg-[#978e81] text-white font-light rounded-sm hover:bg-[#785633] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-3 tracking-wide">
+          <div className="flex flex-wrap gap-8 items-center">
+            <button className="px-8 py-4 bg-[#978e81] text-white font-extralight hover:bg-[#785633] transition-colors duration-200 flex items-center gap-3 tracking-wide">
               <Plus size={18} />
               With Icon
             </button>
-            <button className="px-6 py-3 bg-[#978e81] text-white font-light rounded-sm hover:bg-[#785633] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-3 tracking-wide">
+            <button className="px-8 py-4 bg-[#978e81] text-white font-extralight hover:bg-[#785633] transition-colors duration-200 flex items-center gap-3 tracking-wide">
               Continue
               <ArrowRight size={18} />
             </button>
-            <button className="px-6 py-3 bg-neutral-200 text-neutral-400 font-light rounded-sm cursor-not-allowed opacity-60" disabled>
+            <button className="px-8 py-4 bg-neutral-200 text-neutral-400 font-extralight cursor-not-allowed" disabled>
               Disabled
             </button>
           </div>

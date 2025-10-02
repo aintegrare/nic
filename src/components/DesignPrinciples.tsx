@@ -9,64 +9,48 @@ export default function DesignPrinciples() {
       </p>
 
       <div className="grid md:grid-cols-2 gap-8 mb-12">
-        <div className="bg-gradient-to-br from-[#978e81] via-[#897a6d] to-[#785633] rounded-sm p-12 text-white shadow-2xl relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-black/20"></div>
-          <div className="relative z-10">
-          <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-sm flex items-center justify-center mb-8">
+        <div className="bg-[#978e81] p-16 text-white">
+          <div className="w-16 h-16 bg-white/20 flex items-center justify-center mb-10">
             <Sparkles size={28} />
           </div>
-          <h3 className="text-3xl font-light mb-6 tracking-wide">Minimalismo</h3>
-          <p className="text-white/90 mb-8 font-light leading-relaxed">
+          <h3 className="text-4xl font-thin mb-8 tracking-wide">Minimalismo</h3>
+          <p className="text-white/90 mb-10 font-extralight leading-relaxed text-lg">
             Simplicidade refinada e propósito claro.
           </p>
-          <ul className="space-y-4 text-white/80 font-light">
+          <ul className="space-y-5 text-white/80 font-extralight text-lg">
             <li>• Espaçamento generoso</li>
             <li>• Elementos essenciais</li>
             <li>• Cores coesas</li>
           </ul>
-          </div>
         </div>
 
-        <div className="bg-gradient-to-br from-[#5d3a20] via-[#4a3118] to-[#272721] rounded-sm p-12 text-white shadow-2xl relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-black/5 to-black/20"></div>
-          <div className="relative z-10">
-          <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-sm flex items-center justify-center mb-8">
+        <div className="bg-[#5d3a20] p-16 text-white">
+          <div className="w-16 h-16 bg-white/20 flex items-center justify-center mb-10">
             <Target size={28} />
           </div>
-          <h3 className="text-3xl font-light mb-6 tracking-wide">Alto Padrão</h3>
-          <p className="text-white/90 mb-8 font-light leading-relaxed">
+          <h3 className="text-4xl font-thin mb-8 tracking-wide">Alto Padrão</h3>
+          <p className="text-white/90 mb-10 font-extralight leading-relaxed text-lg">
             Qualidade e consistência em cada detalhe.
           </p>
-          <ul className="space-y-4 text-white/80 font-light">
+          <ul className="space-y-5 text-white/80 font-extralight text-lg">
             <li>• Hierarquia clara</li>
             <li>• Feedback instantâneo</li>
             <li>• Precisão técnica</li>
           </ul>
-          </div>
         </div>
 
-        <div className="bg-white border-2 border-neutral-200 rounded-2xl p-8 hover:border-[#978e81] transition-colors duration-300 shadow-md hover:shadow-xl">
-          <div className="w-14 h-14 bg-[#978e81]/10 rounded-xl flex items-center justify-center mb-6">
+        <div className="bg-white border border-neutral-200 p-16 hover:border-[#978e81] transition-colors duration-200">
+          <div className="w-16 h-16 bg-[#978e81]/10 flex items-center justify-center mb-10">
             <Layers className="text-[#978e81]" size={28} />
           </div>
-          <h3 className="text-2xl font-bold text-neutral-900 mb-3">Hierarquia Clara</h3>
-          <p className="text-neutral-600 leading-relaxed mb-4">
-            Organize informações de forma que o usuário sempre saiba onde está e o que fazer.
-            Priorize conteúdo com intencionalidade.
+          <h3 className="text-4xl font-thin text-neutral-900 mb-8 tracking-wide">Hierarquia Clara</h3>
+          <p className="text-neutral-600 leading-relaxed mb-10 font-extralight text-lg">
+            Organize informações com intencionalidade.
           </p>
-          <ul className="space-y-2 text-neutral-600 text-sm">
-            <li className="flex items-start gap-2">
-              <span className="mt-1">•</span>
-              <span>Tamanhos de fonte progressivos e proporcionais</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="mt-1">•</span>
-              <span>Contraste estratégico para guiar atenção</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="mt-1">•</span>
-              <span>Agrupamento lógico de elementos relacionados</span>
-            </li>
+          <ul className="space-y-5 text-neutral-600 font-extralight text-lg">
+            <li>• Tipografia progressiva</li>
+            <li>• Contraste estratégico</li>
+            <li>• Agrupamento lógico</li>
           </ul>
         </div>
 

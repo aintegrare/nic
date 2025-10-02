@@ -49,24 +49,23 @@ function App() {
 
       <main className="max-w-7xl mx-auto px-12 py-20">
         <div className="mb-32">
-          <div className="bg-gradient-to-br from-[#978e81] via-[#897a6d] to-[#785633] p-20 text-white relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width=%2240%22%20height=%2240%22%20viewBox=%220%200%2040%2040%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20fill=%22white%22%20fill-opacity=%220.02%22%20fill-rule=%22evenodd%22%3E%3Cpath%20d=%22M20%2020c0%204.4-3.6%208-8%208s-8-3.6-8-8%203.6-8%208-8%208%203.6%208%208zm0-20c0%204.4-3.6%208-8%208s-8-3.6-8-8%203.6-8%208-8%208%203.6%208%208z%22/%3E%3C/g%3E%3C/svg%3E')] opacity-30"></div>
-            <div className="relative z-10 max-w-5xl">
-              <h1 className="text-6xl font-light mb-12 tracking-tight leading-tight">
+          <div className="bg-[#978e81] p-24 text-white">
+            <div className="max-w-5xl">
+              <h1 className="text-7xl font-thin mb-16 tracking-tight leading-none">
                 Design System
               </h1>
-              <p className="text-xl opacity-95 mb-16 max-w-3xl leading-relaxed font-light">
+              <p className="text-xl opacity-90 mb-20 max-w-3xl leading-relaxed font-extralight">
                 Sistema minimalista desenvolvido para marcas que valorizam elegância, 
                 sofisticação e alto padrão estético.
               </p>
-              <div className="flex gap-12">
-                <div className="px-6 py-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-sm">
-                  <p className="text-sm opacity-70 uppercase tracking-wide">Marca</p>
-                  <p className="font-medium text-lg">@nicollyliiz</p>
+              <div className="flex gap-16">
+                <div className="px-8 py-6 bg-black/10 border border-white/20">
+                  <p className="text-sm opacity-70 uppercase tracking-widest font-light">Marca</p>
+                  <p className="font-normal text-lg mt-2">@nicollyliiz</p>
                 </div>
-                <div className="px-6 py-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-sm">
-                  <p className="text-sm opacity-70 uppercase tracking-wide">Filosofia</p>
-                  <p className="font-medium text-lg">Minimalismo Elegante</p>
+                <div className="px-8 py-6 bg-black/10 border border-white/20">
+                  <p className="text-sm opacity-70 uppercase tracking-widest font-light">Filosofia</p>
+                  <p className="font-normal text-lg mt-2">Flat Design Elegante</p>
                 </div>
               </div>
             </div>
@@ -113,18 +112,18 @@ function App() {
           <Modals />
         </div>
 
-        <footer className="mt-40 pt-24 border-t border-neutral-200/60">
+        <footer className="mt-48 pt-32 border-t border-neutral-200">
           <div className="text-center">
-            <div className="inline-flex items-center gap-4 mb-8">
-              <div className="w-16 h-16 bg-gradient-to-br from-[#978e81] to-[#785633] flex items-center justify-center shadow-lg">
-                <span className="text-white font-light text-2xl">N</span>
+            <div className="inline-flex items-center gap-6 mb-12">
+              <div className="w-20 h-20 bg-[#978e81] flex items-center justify-center">
+                <span className="text-white font-thin text-3xl">N</span>
               </div>
             </div>
-            <h3 className="text-2xl font-light text-neutral-900 mb-6 tracking-wide">Design System @nicollyliiz</h3>
-            <p className="text-neutral-600 mb-12 max-w-2xl mx-auto text-lg leading-relaxed font-light">
+            <h3 className="text-3xl font-thin text-neutral-900 mb-8 tracking-wide">Design System @nicollyliiz</h3>
+            <p className="text-neutral-500 mb-16 max-w-3xl mx-auto text-xl leading-relaxed font-extralight">
               Sistema de design minimalista desenvolvido para elevar a sofisticação e elegância de interfaces digitais.
             </p>
-            <div className="text-neutral-400 text-sm font-light tracking-wider">
+            <div className="text-neutral-300 text-sm font-extralight tracking-widest uppercase">
               ELEGÂNCIA • MINIMALISMO • ALTO PADRÃO
             </div>
           </div>

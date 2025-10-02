@@ -27,25 +27,25 @@ export default function Header({ onNavigate }: HeaderProps) {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-neutral-200/50 shadow-sm">
-      <div className="max-w-7xl mx-auto px-12 py-6">
+    <header className="sticky top-0 z-50 bg-white border-b border-neutral-200">
+      <div className="max-w-7xl mx-auto px-12 py-8">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <div className="w-12 h-12 bg-gradient-to-br from-[#978e81] to-[#785633] rounded-sm flex items-center justify-center shadow-lg">
-              <Palette className="text-white" size={24} />
+          <div className="flex items-center gap-5">
+            <div className="w-14 h-14 bg-[#978e81] flex items-center justify-center">
+              <Palette className="text-white" size={26} />
             </div>
             <div>
-              <h1 className="text-xl font-light text-[#978e81] tracking-wide">Design System</h1>
-              <p className="text-xs text-neutral-500 font-light tracking-wider">@nicollyliiz</p>
+              <h1 className="text-xl font-extralight text-[#978e81] tracking-wide">Design System</h1>
+              <p className="text-xs text-neutral-400 font-light tracking-widest uppercase">@nicollyliiz</p>
             </div>
           </div>
 
-          <nav className="hidden lg:flex items-center gap-2">
+          <nav className="hidden lg:flex items-center gap-1">
             {sections.map((section) => (
               <button
                 key={section.id}
                 onClick={() => handleNavigation(section.id)}
-                className="px-5 py-3 text-sm font-light text-neutral-600 hover:text-[#978e81] hover:bg-[#978e81]/5 rounded-sm transition-all duration-300 tracking-wide"
+                className="px-6 py-4 text-sm font-extralight text-neutral-500 hover:text-[#978e81] hover:bg-[#978e81]/5 transition-all duration-200 tracking-wide"
               >
                 {section.label}
               </button>
