@@ -58,21 +58,21 @@ function App() {
           </div>
           <div className="relative w-full py-32 px-12 md:px-24">
             <div className="max-w-7xl mx-auto">
-              <h1 className="text-8xl md:text-9xl font-thin mb-16 tracking-tight leading-none text-white">
+              <h1 className="text-5xl md:text-6xl font-thin mb-12 tracking-tight leading-none text-white">
                 Design System
               </h1>
-              <p className="text-2xl opacity-90 mb-20 max-w-4xl leading-relaxed font-extralight text-white">
+              <p className="text-lg opacity-90 mb-16 max-w-2xl leading-relaxed font-extralight text-white">
                 Sistema minimalista desenvolvido para marcas que valorizam elegância,
                 sofisticação e alto padrão estético.
               </p>
-              <div className="flex flex-wrap gap-8">
-                <div className="px-12 py-8 bg-[#f1ebe1]/10 border border-[#f1ebe1]/20">
-                  <p className="text-sm opacity-70 uppercase tracking-widest font-light text-white">Marca</p>
-                  <p className="font-normal text-2xl mt-3 text-white">@nicollyliiz</p>
+              <div className="flex flex-wrap gap-6">
+                <div className="px-8 py-5 bg-[#f1ebe1]/10 border border-[#f1ebe1]/20">
+                  <p className="text-xs opacity-70 uppercase tracking-widest font-light text-white">Marca</p>
+                  <p className="font-normal text-lg mt-2 text-white">@nicollyliiz</p>
                 </div>
-                <div className="px-12 py-8 bg-[#f1ebe1]/10 border border-[#f1ebe1]/20">
-                  <p className="text-sm opacity-70 uppercase tracking-widest font-light text-white">Filosofia</p>
-                  <p className="font-normal text-2xl mt-3 text-white">Flat Design Elegante</p>
+                <div className="px-8 py-5 bg-[#f1ebe1]/10 border border-[#f1ebe1]/20">
+                  <p className="text-xs opacity-70 uppercase tracking-widest font-light text-white">Filosofia</p>
+                  <p className="font-normal text-lg mt-2 text-white">Flat Design Elegante</p>
                 </div>
               </div>
             </div>
